@@ -232,6 +232,10 @@ UID.InputBegan:connect(function(input)
 			animate()
 		end
 	end
+	
+	if input.KeyCode == Enum.KeyCode.Escape then
+		typer.Text = stockphrase
+	end
 end)
 
 -- This will fire when the mobile button is clicked.
